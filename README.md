@@ -10,6 +10,7 @@
 * 그럼에도 svm 사용으로 backpropagation 사용 불가능
 * SPP(Spatial Pyramid Pooling)는 fine tuning할 때 업데이트가 불가능해서 정확도에 한계가 있음
 ## Fast R-CNN
+* <img width="740" alt="fast_r_cnn" src="https://user-images.githubusercontent.com/86214286/199864108-d53c7afe-59ee-4778-9bb8-541f94eeafc9.png">
 * single stage tast ==> classification과 regression을 하나의 loss에 넣어서 backpropagation을 할 수 있다.
 * convolutional net을 통과면 마지막 max pooling layer에 ROI pooling을 함
 * SGD할 때 hierarchical sampling 방식 채택 => 각 ROI가 feature를 많이 공유해서 계산이 쉬움

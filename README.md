@@ -4,6 +4,7 @@
 * svm사용=>backpropagation 안 됨
 * region proposal에서 뽑아낸 feature들을 disk에 써야함
 ## SPPnet
+* <img width="485" alt="SPPnet" src="https://user-images.githubusercontent.com/86214286/199863873-3f178bc5-42dc-48c2-aa4b-81d34957e524.png">
 * R-CNN의 약점을 보완하기 위해 convolutional net에 통과시키도 난 뒤 region proposal 각각의 coordinate 부분을 찾아감
 * 그럼에도 svm 사용으로 backpropagation 사용 불가능
 * SPP(Spatial Pyramid Pooling)는 fine tuning할 때 업데이트가 불가능해서 정확도에 한계가 있음

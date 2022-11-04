@@ -1,5 +1,6 @@
 # Fast-R-CNN
 ## R-CNN
+* <img width="619" alt="r_cnn" src="https://user-images.githubusercontent.com/86214286/199863958-d065167b-182a-4208-b360-9f6cd1892d3f.png">
 * 각각의 warped image를 convolutional net에 통과 => 계산량 많음
 * svm사용=>backpropagation 안 됨
 * region proposal에서 뽑아낸 feature들을 disk에 써야함
